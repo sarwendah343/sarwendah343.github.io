@@ -1,0 +1,139 @@
+#body {
+    font-family: verdana;
+    font-size: 14px;
+
+}
+
+#utama {
+    width: 992px;
+    border:1px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu, #footer {
+    border:1px solid #000;
+    margin-top: 20px;
+}
+
+/* STYLE HEADER */
+
+img {
+    width: 80px;
+	height : 80px;
+    display: inline-block;
+    float: left;
+}
+
+#header h1, #header h3{
+    margin-top:5px;
+    margin-bottom:10px;
+	font-family : Time New Rowmans;
+	color : #0c3308;
+}
+
+#header:after {
+    clear: both;
+    content: ".";
+    visibility: hidden;
+}
+
+/* END STYLE HEADER */
+
+/* STYLE MENU */
+
+#menu {
+    border: 1px solid #11290f;
+    border-bottom: 3px solid #11290f;
+    background: #0c3308;
+}
+
+#menu a{  
+    display: inline-block;
+    padding:9px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu a:hover {
+    background: #11290f;
+    border-bottom: 3px solid #000;
+    margin-bottom: -3px;
+}
+
+/* END STYLE MENU */
+
+/* KONTEN */
+
+#konten-utama {
+    width: 700px;
+	font-size : 20px;
+	font-family : calibri;
+    display: inline-block;
+}
+
+#konten-utama2 {
+    width: 1000px;
+	font-size : 20px;
+	font-family : calibri;
+    display: inline-block;
+}
+
+p {
+    text-align: justify;
+}
+
+#sidebar {
+    width: 270px;
+    display: inline-block;
+    float: right;
+}
+
+.konten-sidebar {
+    border:1px solid #1b4017;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.konten-sidebar h4{
+    margin:0;
+    padding:12px 5px;
+    background: #14420f;
+    border-bottom: 1px solid #1b4017;
+    color: #fff;
+}
+
+.konten-sidebar ul {
+    margin:0px;
+    padding:0px;
+}
+
+.konten-sidebar ul li {
+    list-style: none;
+    padding: 10px 5px;
+    border-bottom: 1px solid #1b4017;
+}
+
+.konten-sidebar ul li a{
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* END KONTEN */
+
+/* FOOTER */
+
+#footer {
+    border: 1px solid #11290f;
+    background: #0c3308;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+/* END FOOTER */
+
+.clear {
+    clear:both;
+}
